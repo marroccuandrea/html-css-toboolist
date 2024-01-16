@@ -6,6 +6,7 @@
 
   body{
     background-color: #F6F8F9;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .logo span{
@@ -35,7 +36,9 @@
     height: 100%;
     background-color: white;
     padding-bottom: 15px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    
+    
   }
  
   .pulsanti :hover{
@@ -45,6 +48,7 @@
   .pulsanti .blu{
     background-color: #46ADF1;
     color: white;
+    margin: 3px;
     border-radius: 5px;
     padding: 4px 9px;
     border-color: #46ADF1;
@@ -53,18 +57,25 @@
   .pulsanti .bianco{
     background-color: white;
     color: #C6CCD2;
+    margin: 3px;
     border-radius: 5px;
     padding: 4px 9px;
     border-color: #C6CCD2;
   }
 
 .riquadrone{
-    margin: auto;
+    margin: 0 auto;
     width: 75%;
     background-color: white;
-    list-style: none;
+    border-radius: 0 0 10px 10px;
 }
 
 .liste{
     list-style: none;
+}
+
+.linea{
+    margin: auto;
+    width: 75%;
+    border: 1px solid #F6F8F9;
 }
