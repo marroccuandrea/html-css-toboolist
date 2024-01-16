@@ -24,9 +24,32 @@
     background-color: white;
     margin: 0 auto;
     height: 80px;
+    padding-bottom: 20px;
   }
 
   .riquadro{
-    
+    padding-left: 50px;
+    padding-top: 20px;
+    margin: auto;
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 15px;
+    border-radius: 10px;
   }
  
+  .pulsanti .blu{
+    background-color: #46ADF1;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 9px;
+    border-color: #46ADF1;
+  }
+
+  .pulsanti .bianco{
+    background-color: white;
+    color: #C6CCD2;
+    border-radius: 5px;
+    padding: 4px 9px;
+    border-color: #C6CCD2;
+  }
