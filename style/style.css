@@ -38,6 +38,10 @@
     border-radius: 10px;
   }
  
+  .pulsanti :hover{
+    cursor: pointer;
+  }
+
   .pulsanti .blu{
     background-color: #46ADF1;
     color: white;
