@@ -62,4 +62,9 @@
     margin: auto;
     width: 75%;
     background-color: white;
+    list-style: none;
+}
+
+.liste{
+    list-style: none;
 }
